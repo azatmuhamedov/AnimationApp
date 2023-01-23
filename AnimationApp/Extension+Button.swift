@@ -15,7 +15,7 @@ extension UIButton {
         pulse.duration = 0.6           //продолжительность анимации сек
         pulse.fromValue = 0.9         //начальное значение
         pulse.toValue = 1              //конечное значение
-        pulse.autoreverses = false     //туда сюда
+        pulse.autoreverses = true     //туда сюда
         pulse.repeatCount = 2          //повторить 2 раза
         pulse.initialVelocity = 0.5    //начальное ускорение
         pulse.damping = 1              //затухание
