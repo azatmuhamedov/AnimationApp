@@ -9,11 +9,16 @@ import UIKit
 
 class ViewController: UIViewController {
 
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view.
+    @IBOutlet var coreAnimationView: UIView!
+    
+
+    @IBAction func runCoreAnimation(_ sender: UIButton) {
+        coreAnimationView.frame              //фрейм это рамка
+        
+        
+        sender.pulsate() //вызвал кнопку
     }
-
-
+    
+    
 }
 
